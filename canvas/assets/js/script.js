@@ -159,7 +159,7 @@ function drawFood() {
   ctx.strokeRect(food_x, food_y, 10, 10);
 }
 
-/* GROWING THE SNAKE  */
+/* GAME INIT */
 
 // update delta movement uppon key pressed events
 document.addEventListener('keyup', changeDirection);
